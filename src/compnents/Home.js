@@ -1,21 +1,16 @@
 import React from 'react';
-import Header from './headers/Header';
-import Slider from './sliders/Slider';
-import Product from './products/Product';
-import Saving from './savingsections/SavingSection';
-import Footer from './footer/Footer';
+import Nav from './nav';
+import ImageGallery from './ImageGallery';
+import About from './About';
+import Footer from './Footer';
 
 function Home() {
     return (
         <>
-            <div className="hero_area">
-                <Header></Header>
-                <Slider></Slider>
-            </div>
-            <Product></Product>
-            <Saving></Saving>
+            <Nav></Nav>
+            <ImageGallery></ImageGallery>
+            <About></About>
             <Footer></Footer>
-
         </>
     );
 }
